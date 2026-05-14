@@ -62,6 +62,31 @@ TEAM_CONFIG = {
         "url": "https://www.espncricinfo.com/team/delhi-capitals-333979/photo",
         "out_dir": "raw-images/Delhi capitals",
     },
+    "GT": {
+        "name": "Gujarat Titans",
+        "url": "https://www.espncricinfo.com/team/gujarat-titans-1298423/photo",
+        "out_dir": "raw-images/GT",
+    },
+    "KKR": {
+        "name": "Kolkata Knight Riders",
+        "url": "https://www.espncricinfo.com/team/kolkata-knight-riders-381943/photo",
+        "out_dir": "raw-images/KKR",
+    },
+    "LSG": {
+        "name": "Lucknow Super Giants",
+        "url": "https://www.espncricinfo.com/team/lucknow-super-giants-1298541/photo",
+        "out_dir": "raw-images/LSG",
+    },
+    "MI": {
+        "name": "Mumbai Indians",
+        "url": "https://www.espncricinfo.com/team/mumbai-indians-335974/photo",
+        "out_dir": "raw-images/MI",
+    },
+    "PBKS": {
+        "name": "Punjab Kings",
+        "url": "https://www.espncricinfo.com/team/punjab-kings-335976/photo",
+        "out_dir": "raw-images/PBKS",
+    },
     "IPL": {
         "name": "IPL 2025 Series Gallery",
         "url": "https://www.espncricinfo.com/series/ipl-2025-1449924/photo",

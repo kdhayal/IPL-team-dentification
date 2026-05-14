@@ -13,6 +13,11 @@ Raw images are scraped from ESPN Cricinfo team photo galleries using `download_i
 | `SRH` | Sunrisers Hyderabad | https://www.espncricinfo.com/team/sunrisers-hyderabad-628333/photo |
 | `CSK` | Chennai Super Kings | https://www.espncricinfo.com/team/chennai-super-kings-335973/photo |
 | `DC` | Delhi Capitals | https://www.espncricinfo.com/team/delhi-capitals-333979/photo |
+| `GT` | Gujarat Titans | https://www.espncricinfo.com/team/gujarat-titans-1298423/photo |
+| `KKR` | Kolkata Knight Riders | https://www.espncricinfo.com/team/kolkata-knight-riders-381943/photo |
+| `LSG` | Lucknow Super Giants | https://www.espncricinfo.com/team/lucknow-super-giants-1298541/photo |
+| `MI` | Mumbai Indians | https://www.espncricinfo.com/team/mumbai-indians-335974/photo |
+| `PBKS` | Punjab Kings | https://www.espncricinfo.com/team/punjab-kings-335976/photo |
 | `IPL` | IPL 2025 Series Gallery | https://www.espncricinfo.com/series/ipl-2025-1449924/photo |
 
 - **Image CDN pattern:** `https://img1.hscicdn.com/image/upload/...` (e.g. `414800.jpg`, `414852.png`)
@@ -54,7 +59,7 @@ python download_images.py --team RCB --scroll-pause 3
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--team` | *(required)* | Team code: `RR`, `RCB`, `SRH`, `CSK`, `DC`, `IPL` |
+| `--team` | *(required)* | Team code: `RR`, `RCB`, `SRH`, `CSK`, `DC`, `GT`, `KKR`, `LSG`, `MI`, `PBKS`, `IPL` |
 | `--year` | `2025` | Only download photos from this year |
 | `--out` | per-team folder | Override output directory |
 | `--url` | per-team URL | Override gallery page URL |
@@ -69,6 +74,11 @@ raw-images/
 ├── RCB/              # Royal Challengers Bengaluru
 ├── RR/               # Rajasthan Royals
 ├── SRH/              # Sunrisers Hyderabad
+├── GT/               # Gujarat Titans
+├── KKR/              # Kolkata Knight Riders
+├── LSG/              # Lucknow Super Giants
+├── MI/               # Mumbai Indians
+├── PBKS/             # Punjab Kings
 ├── no team/          # Images with no visible team
 └── downloaded/       # IPL series gallery (--team IPL)
 ```
